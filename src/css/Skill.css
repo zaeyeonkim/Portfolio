@@ -1,0 +1,53 @@
+.skill_photo {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.skill_photo .data {
+    position: relative;
+}
+.skill_photo .data button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.skill_photo button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.skill_photo img {
+    width: 60px;
+    margin: 10px;
+}
+.skill_photo .data button:hover {
+    background-color: #3f4449a1;
+}
+.data button.active {
+    background-color: #3f4449a1;
+}
+.description {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-size: 24px;
+    color: #ececec;
+    text-align: center;
+    position: absolute;
+    bottom: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.skill_info {
+    font-family: "Roboto Mono", monospace;
+    color: #ececec;
+    font-size: 42px;
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    transform: rotate(340deg);
+    z-index: 99;
+}

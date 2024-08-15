@@ -1,0 +1,54 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #ececec;
+    }
+}
+
+.typing {
+    font-family: "Roboto Mono", monospace;
+    font-size: 32px;
+    color: #fff;
+    border-right: .15em solid #ececec;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .1em;
+    animation: typing 2s steps(40, end), blink-caret .75s step-end infinite;
+    z-index: 99999;
+}
+.typing span {
+    color: #a0d9ff; 
+}
+.typing span:last-child {
+    color: #d7983d;
+}
+.typing strong {
+    color: #d7983d;
+}
+.typing em {
+    color: #1f9cf0;
+}
+.typing i {
+    color: #aaaaaa;
+}
+
+.home_area {
+    margin-top: 50px;
+}
+.home_area .logo {
+    z-index: -1;
+}
+.home_area .typing {
+    z-index: 9999;
+}

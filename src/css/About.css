@@ -1,0 +1,47 @@
+.about_area {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+.about_area .about_photo {
+    float: left;
+    margin-left: 20px;
+}
+.about_area .about_photo img {
+    width: 200px;
+    border-radius: 15px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.about_text {
+    color: #ececec;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+}
+.about_text strong {
+    color: #1f9cf0;
+    text-decoration: underline;
+    text-decoration-color: #ff0000;
+    text-decoration-style: wavy;
+}
+.about_text span {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+}
+.about_text em {
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    color: gray;
+}
+.about_text .last {
+    margin-right: 20px;
+}
+.about_text .introduce {
+    font-size: 28px;
+    margin-top: 25px;
+    line-height: 40px;
+}
